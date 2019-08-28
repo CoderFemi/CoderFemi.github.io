@@ -142,63 +142,7 @@
     height: 210px;
     width: 210px;
   }
-  .mugshot .logo {
-    margin: -23px;
-  }
-  .logo {
-    display: false;
-    position: absolute;
-    margin: false;
-    top: 0;
-    left: 0;
-    right: false;
-    bottom: false;
-    z-index: 100;
-    margin: 0;
-    color: #000;
-    height: 250px;
-    width: 250px;
-  }
-  .logo .logo-svg {
-    height: 100%;
-    width: 100%;
-    stroke: #000;
-    cursor: pointer;
-  }
-  .logo .logo-text {
-    display: false;
-    position: absolute;
-    margin: false;
-    top: 58%;
-    left: ;
-    right: 16%;
-    bottom: ;
-    cursor: pointer;
-    font-family: "Montserrat";
-    font-size: 55px;
-    letter-spacing: 0px;
-    font-weight: 400;
-    line-height: 58.333333333333336px;
-  }
-  .social {
-    padding-left: 60px;
-    margin-bottom: 20px;
-    cursor: pointer;
-  }
-  .social:before {
-    content: "";
-    display: false;
-    position: absolute;
-    margin: false;
-    top: -4px;
-    left: 10px;
-    right: false;
-    bottom: false;
-    height: 35px;
-    width: 35px;
-    background-size: cover !important;
-  }
-  .side-header {
+.side-header {
     font-family: 'Open Sans';
     font-size: 18px;
     letter-spacing: 4px;
