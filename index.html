@@ -3,12 +3,14 @@
     <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
     <head>
-    <title>Olufemi Agbebi</title>
+        <style>
+            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Bookman Old Style"}
+        </style>
+        <script src="main.js"></script>
     </head> 
-    <style>
-        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Bookman Old Style"}
-    </style>
+   
 <body>
+<title>Olufemi Agbebi</title>
 <div class="rela-block page">
     <div class="rela-block top-bar">
         <div class="caps name"><div class="abs-center">Olufemi Agbebi</div></div>
@@ -117,6 +119,27 @@
                 <li>Managed accounts receivable; following up with parents/guardians on outstanding fees.</li>
             </ul>
     </div>
+    
+    <div class="rela-block content-container">
+
+        <div class="rela-block caps greyed">Contact Olufemi</div>
+        <form name="ContactForm" action="" onsubmit="return CONTACTFEMI()" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="Your E-mail..">
+
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" placeholder="Title of your message..">
+
+        <label for="subject">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
 </div>
+
 </body>
 </html>
