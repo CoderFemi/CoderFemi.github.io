@@ -14,3 +14,6 @@
 
 ##UPDATE ON TASK 3
 HTML was updated with CSS, making it more visually appealing. This is my progress in learning how to create a css document, insert a link to it in the HTML tag attribute, and also place my picture within the CV using SVG Viewbox code.
+
+###FURTHER UPDATE
+A contact form has been added to the CV, in fulfillment of further requirements for Task 3.
